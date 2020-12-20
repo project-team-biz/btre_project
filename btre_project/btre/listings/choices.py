@@ -26,7 +26,7 @@ price_choices = {
 
 state_choices = {
     "AL" : "Alabama",
-    "AK" : "Alaska",
+    "Alaska" : "Alaska",
     "AZ" : "Arizona",
     "AR" : "Arkansas",
     "CA" : "California",
