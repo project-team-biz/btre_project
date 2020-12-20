@@ -27,6 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Email config
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'heershah123.msm@gmail.com'
+EMAIL_HOST_PASSWORD = '@Hs030401'
+EMAIL_USE_TLS = True
 
 # Application definition
 
@@ -41,6 +47,7 @@ INSTALLED_APPS = [
     'listings',
     'realtors',
     'accounts',
+    'contacts',
     'django.contrib.humanize',
 ]
 
